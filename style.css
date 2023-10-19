@@ -1,0 +1,135 @@
+.kamrul {
+	background: #000000;
+}
+
+.section-padding {
+	padding: 200px 0;
+}
+
+.white-box {
+	background-color: #fff;
+	box-shadow: 0 0 10px #ffffff;
+	padding: 30px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.white-box h4,
+.colored-box h4 {
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="tel"] {
+	background-color: #d4d4ca;
+	border: none;
+	padding: 15px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.contact-form input,
+textarea {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact-form input[type="submit"] {
+	width: auto;
+	margin: 0;
+}
+
+.contact-form textarea {
+	height: 150px;
+	resize: none;
+	margin-bottom: 30px;
+}
+
+input[type="submit"] {
+	background-color: #52b0fd;
+	color: #fff;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 9px;
+	font-weight: 600;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	-ms-border-radius: 9px;
+	-o-border-radius: 9px;
+}
+
+.colored-box {
+	background-color: #779bc5;
+	padding: 30px;
+	margin-left: 15px;
+	color: #fff;
+	min-height: 520px;
+	box-shadow: 0 0 10px #ffffff;
+	border-radius: 9px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	-ms-border-radius: 9px;
+	-o-border-radius: 9px;
+}
+
+.colored-box a {
+	color: #fff;
+}
+.contact-info {
+	position: relative;
+	padding-left: 42px;
+	margin-bottom: 30px;
+}
+
+.contact-info .fa-solid {
+	position: absolute;
+	top: 6px;
+	left: 0;
+	font-size: 20px;
+}
+
+.social-icons a {
+	display: inline-block;
+	color: #333;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-shadow: 0 0 5px #333;
+	transition: 0.3s;
+}
+.social-icons a:hover {
+	color: #2873b1;
+	box-shadow: 0 0 0;
+}
+input[type="submit"]:hover {
+	background: #e2e464;
+	color: #4623a7;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+
+.col-md-6 :hover {
+	background: #dce476;
+}
